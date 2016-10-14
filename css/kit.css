@@ -1,0 +1,18 @@
+*{
+text-decoration: none !important;
+outline: 0 !important;
+}
+.row {
+  margin: 0 !important;
+  padding: 0;
+}
+body {
+	-webkit-font-smoothing: antialiased;
+}
+header .bg-gray{
+  background: #333;
+  height: 55px;
+  padding: 20px;
+  text-align: right;
+  color: #fff;
+}

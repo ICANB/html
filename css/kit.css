@@ -8,11 +8,303 @@ outline: 0 !important;
 }
 body {
 	-webkit-font-smoothing: antialiased;
+  font-family: helvetica;
+}
+header{
+  position: relative;
+  z-index: 1;
 }
 header .bg-gray{
   background: #333;
   height: 55px;
-  padding: 20px;
+  padding: 10px 20px;
   text-align: right;
   color: #fff;
+}
+header .bg-gray a{
+  color: #fff;
+}
+header .bg-gray .active{
+  color: #1FACEB;
+}
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-mail3:before {
+  content: "\ea85";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+
+.idioma{
+  float: right;
+  padding: 7px 10px 7px 25px;
+}
+.social{
+  float: right;
+}
+.social a {
+    height: 33px;
+    width: 33px;
+    background-color: #1FACEB;
+    padding: 8px 2px;
+    border-radius: 50px;
+    margin: 0 7px;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.3s ease;
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+}
+.social a:hover{
+  background-color: #fff;
+  color: #1FACEB;
+  transition: all 0.3s ease;
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+}
+.num-email {
+    float: right;
+    padding-top: 7px;
+    padding-right: 10px;
+}
+.num-email p{
+float: left;
+padding: 0 20px;
+font-size: 14px;
+}
+.num-email p span {
+    margin: 0 10px 0 0;
+    font-size: 18px;
+    top: 3px;
+    position: relative;
+}
+.separator{
+  height: 20px;
+  width: 1px;
+  background: #fff;
+  float: left;
+}
+.menu-logo {
+background: #fff;
+   height: 95px;
+    position: relative;
+    -webkit-box-shadow: 0px 3px 9px -1px rgba(0,0,0,0.22);
+    -moz-box-shadow: 0px 3px 9px -1px rgba(0,0,0,0.22);
+    box-shadow: 0px 3px 9px -1px rgba(0,0,0,0.22);
+}
+.logo {
+    height: 130px;
+    position: relative;
+    top: 25px;
+    left: 9%;
+}
+.logo-drive {
+    background-image: url(../images/bg-service.png);
+    height: 180px;
+    width: 180px;
+    background-size: 100%;
+    position: absolute;
+    top: -25px;
+    background-repeat: no-repeat;
+    z-index: 1;
+    left: 60px;
+    float: left;
+}
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    float: right;
+    margin-top: 23px;
+    margin-bottom: 0;
+   }
+   .navbar-default .navbar-nav > li > a {
+       color: #333;
+       font-weight: 500;
+       margin: 0 5px;
+       padding: 15px 20px 5px;
+       font-family: helvetica;
+       transition: all 0.3s ease;
+       -webkit-transition: all 0.3s ease;
+       -moz-transition: all 0.3s ease;
+       -o-transition: all 0.3s ease;
+       -ms-transition: all 0.3s ease;
+   }
+.navbar-default .navbar-nav > li > a:hover{
+  color: #1FACEB;
+  border-bottom: 1px solid #1faceb;
+  transition: all 0.3s ease;
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #1faceb;
+    background-color: transparent;
+    border-bottom: 1px solid #1faceb;
+}
+.slider-home{
+  position: relative;
+}
+.overlay_video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 100px;
+    text-align: center;
+    padding-top: 223px;
+    /* background: rgba(0, 0, 0, 0.5); */
+    z-index: 9;
+    top: 0;
+}
+.overlay_video img{
+  opacity: 0.7;
+  transition: all 0.3s ease;
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+}
+.overlay_video img:hover{
+  opacity: 1;
+  transition: all 0.3s ease;
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+}
+.carousel-indicators {
+    position: absolute;
+    bottom: 40px;
+    left: 48%;
+    z-index: 15;
+    background-color: rgba(89, 179, 184, 0.34);
+    width: auto;
+    padding-left: 0;
+    margin-left: -1%;
+    text-align: center;
+    list-style: none;
+    padding: 3px 13px;
+    border-radius: 20px;
+}
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    border: 2px solid #1faceb;
+    margin: 0;
+    background-color: #fff;
+}
+footer{
+  background-image: url(../images/bg-footer.jpg);
+  background-size: cover;
+}
+footer .col-md-4{
+padding: 45px 30px;
+color: #fff;
+}
+footer .col-md-4:nth-child(1){
+  text-align: left;
+  padding-top: 90px;
+}
+footer .col-md-4:nth-child(2){
+  text-align: center;
+}
+footer .col-md-4:nth-child(3) {
+    text-align: right;
+    padding-top: 90px;
+}
+footer .social{
+  float: none;
+}
+footer .social a {
+    height: 54px;
+    width: 54px;
+    font-size: 25px;
+    color: #fff;
+    padding-top: 11px;
+}
+footer .correo{
+  color: #fff;
+  margin-top: 40px;
+}
+footer .correo span{
+  position: relative;
+  top: 2px;
+  margin-right: 8px;
+}
+footer .correo a{
+  color: #fff;
+}
+.borde-color{
+  height:3px;
+  background-image: url(../images/border-gradient.png);
+}
+.location {
+    background-image: url(../images/location2.png);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+footer .col-md-4:nth-child(3) .location{
+  background-position-x: 40%;
+}
+.phone span{
+  font-size: 18px;
+  position: relative;
+  top: 4px;
+  margin-right: 10px;
+}
+.developement{
+  height: 50px;
+  padding: 15px 25px;
+  background: #333;
+  color: #ccc;
+}
+.developement .col-md-6:nth-child(1){
+  text-align: left;
+}
+.developement .col-md-6:nth-child(2){
+  text-align: right;
+}
+.developement .col-md-6:nth-child(2) a{
+  color: #ccc;
+  transition: all 0.3s ease;
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+}
+.developement .col-md-6:nth-child(2) a:hover{
+  color: #fff;
+  transition: all 0.3s ease;
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
 }

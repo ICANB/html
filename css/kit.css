@@ -438,3 +438,16 @@ border-bottom: 3px solid #FFCA00;
 .related{
   margin-top: 50px;
 }
+.news .carousel-control{
+width: 8%;
+color: #FFCA00;
+opacity: 1;
+box-shadow: none !important;
+text-shadow: none !important;
+}
+.news .carousel-control.left {
+  left: -60px;
+ }
+.news .carousel-control.right{
+  right: -60px;
+}

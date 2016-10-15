@@ -308,3 +308,95 @@ footer .col-md-4:nth-child(3) .location{
 -o-transition: all 0.3s ease;
 -ms-transition: all 0.3s ease;
 }
+
+.sstories {
+    padding: 15px;
+    text-align: center;
+    background-color: #ffca00;
+}
+
+.sstories h1{
+    font-size: 35px;
+    color: #fff;
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+.subrayado {
+    border-bottom: 3px solid #59b3b8;
+    width: 125px;
+    float: none;
+    margin: auto;
+}
+
+.sstories .col-md-4 {
+    width: 33.33333333%;
+    height: 350px;
+    padding: 20px;
+    padding-top: 20px;
+}
+
+.sstories .col-md-4 img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.storiestext {
+    position: relative;
+    background: rgba(255, 255, 255, 0.58);
+    top: -75px;
+    height: 75px;
+}
+
+.storiestext p {
+    margin: 0 0 10px;
+    color: #505050;
+    padding: 18px;
+    font-size: 16px;
+}
+
+.sstories .row {
+    margin: 0 !important;
+    padding: 50px;
+}
+
+
+.carousel-control.right {
+    right: 0;
+    left: auto;
+    background: transparent;
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .5) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+}
+
+
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    float: right;
+    right: 30px;
+    top: 190px;
+}
+
+.carousel-control.left {
+    left:0;
+    right: auto;
+    background: transparent;
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .5) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+}
+
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    float: left;
+    left: 30px;
+    top: 190px;
+}
+
+.teamclouds{ 
+  background-color: #59b3b8;
+  padding: 50px;
+}
+
+.teambox img {
+    width: 90%;
+}
+

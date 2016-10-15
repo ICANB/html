@@ -391,7 +391,7 @@ footer .col-md-4:nth-child(3) .location{
     top: 190px;
 }
 
-.teamclouds{ 
+.teamclouds{
   background-color: #59b3b8;
   padding: 50px;
 }
@@ -399,4 +399,42 @@ footer .col-md-4:nth-child(3) .location{
 .teambox img {
     width: 90%;
 }
-
+.news{
+  padding: 40px;
+  text-align: center;
+}
+.news h1{
+  font-size: 35px;
+color: #000;
+font-family: helvetica;
+font-weight: bold;
+display: inline-block;
+border-bottom: 3px solid #FFCA00;
+}
+.slider_new{
+  width: 600px;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border-radius: 5px;
+  border: 9px solid #59B3B8;
+}
+.news h2{
+  font-size: 34px;
+  color: #000;
+}
+.news p{
+  color: #979797;
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+}
+.disqus{
+  margin-top: 90px;
+}
+.disqus img{
+  width: 690px;
+}
+.related{
+  margin-top: 50px;
+}

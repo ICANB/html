@@ -629,10 +629,144 @@ box-shadow: 0px 0px 12px 2px rgba(184,184,184,1);
 
 
 
+.servicesbanner {
+padding: 85px;
+padding-bottom: 0;
+}
+
+.servicesbanner img{
+    width: 97%;
+    position: relative;
+    margin-top: 35px;
+    right: 45px;
+}
+
+.servicesbanner .col-md-6 h1 {
+    font-size: 35px;
+    font-family: helvetica;
+    font-weight: 600;
+    text-align: right;
+}
+
+.subrayadoservices {
+    border-bottom: 3px solid #ffca00;
+    width: 120px;
+    float: right;
+
+}
+
+
+.servicesbanner .col-md-6 p{
+    font-size: 14px;
+    font-family: helvetica;
+    text-align: right;
+    position: relative;
+    margin-top: 50px;
+    color: #787878;
+}
+
+.hwwork {
+     background-image: url(../images/servicescoverazul.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 45px;
+
+    text-align: center;
+}
+
+.hwwork h1{
+  font-size: 35px;
+  font-family: helvetica;
+  color: #fff;
+}
+
+.subrayadowork{
+
+    border-bottom: 3px solid #ffca00;
+    width: 120px;
+    float: none;
+    margin: auto;
+}
+
+.hwwork p{
+    padding-top: 56px;
+    width: 500px;
+    float: none;
+    margin: auto;
+    color: #fff;
+}
+
+
+
+.overlayparents {
+    background-color: #ffca00;
+    mix-blend-mode: multiply;
+    position: absolute;
+    padding: 50px 0px;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+}
+
+.parentsrole {
+    width: 100%;
+    height: 500px;
+}
+
+.parentsrole h1 {
+    font-size: 35px;
+    font-weight: 500;
+    font-family: helvetica;
+    color: #fff;
+    position: relative;
+    top: -445px;
+    z-index: 1;
+    width: 225px;
+    float: none;
+    margin: auto;
+}
+
+.parentsrole p {
+    position: relative;
+    top: -360px;
+    width: 700px;
+    float: none;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+    border: 3px solid;
+    border-style: dashed;
+    padding: 50px;
+    font-size: 18px;
+
+}
+
+.parentsbackground{
+       background-image: url(../images/parentsrole.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+    text-align: center;
+}
+
+.subrayadoparents {
+    border-bottom: 3px solid #fff;
+    width: 142px;
+    float: none;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+    top: -440px;
+    right: 8px;
+}
+=======
 
 
 
 
+
+>>>>>>> 181d241c4b8a097cb6105fd58b7450ca1202eb92
 
 
 

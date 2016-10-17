@@ -704,4 +704,62 @@ box-shadow: 0px 0px 12px 2px rgba(184,184,184,1);
   background: #f2f2f2;
   padding: 30px;
   border: 2px dashed #E5E5E5;
+  height: 620px;
+  margin-bottom: 20px;
+}
+.modal-cv input[type="file"]{
+    color: transparent;
+}
+.modal-cv .modal-body, .modal-cv .modal-header{
+  text-align: center;
+  border: none;
+}
+ .modal-cv .modal-header h4{
+   font-size: 18px;
+   color: #000;
+   margin: 20px 0;
+ }
+ .modal-cv .modal-header p{
+   font-size: 12px;
+   color: #7B7B7B;
+ }
+.modal-cv .modal-body .form-control{
+  margin-bottom: 10px;
+}
+.modal-cv .modal-body {
+    padding: 35px;
+}
+.modal-cv .modal-body input{
+  height: 45px;
+}
+.modal-cv .modal-body button{
+background: #FFCA00;
+border: 1px solid #FFCA00;
+border-radius: 5px;
+font-weight: bold;
+font-size: 18px;
+color: #FFFFFF;
+width: 80%;
+padding: 8px 15px;
+transition: all 0.3s ease;
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+}
+.modal-cv .modal-body button:hover{
+  border: 1px solid #FFCA00;
+  background: #fff;
+  color: #FFCA00;
+  transition: all 0.3s ease;
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+}
+.modal-sm {
+    width: 400px;
+}
+.form-group{
+  margin-bottom: 0;
 }

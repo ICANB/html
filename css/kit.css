@@ -763,3 +763,77 @@ transition: all 0.3s ease;
 .form-group{
   margin-bottom: 0;
 }
+.form-contact{
+  text-align: center;
+  padding: 35px;
+}
+.form-contact h2{
+  font-size: 18px;
+  color: #000;
+  margin: 20px 0;
+}
+.form-contact input{
+  height: 45px;
+}
+.form-contact .form-control{
+  margin-bottom: 10px;
+}
+.form-contact button{
+background: #FFCA00;
+border: 1px solid #FFCA00;
+border-radius: 5px;
+font-weight: bold;
+font-size: 18px;
+color: #FFFFFF;
+width: 80%;
+padding: 8px 15px;
+transition: all 0.3s ease;
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+}
+.form-contact button:hover{
+  border: 1px solid #FFCA00;
+  background: #fff;
+  color: #FFCA00;
+  transition: all 0.3s ease;
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+}
+.contact-form-send .col-md-6:nth-child(2){
+  background: #f2f2f2;
+  padding: 0 50px;
+  height: 600px;
+}
+.box-areas h2{
+  font-size: 18px;
+  color: #000;
+  margin-top: 55px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.areas{
+  /* Rectangle 141: */
+background: #FFCA00;
+border: 3px dashed #59B3B8;
+padding: 25px;
+}
+.areas p{
+  font-size: 13px;
+  color: #fff;
+}
+.address{
+  /* Rectangle 141 Copy: */
+background: #59B3B8;
+border: 3px dashed #FFCA00;
+padding: 25px;
+text-align: center;
+margin-top: 20px;
+}
+.address p{
+  font-size: 14px;
+  color: #fff;
+}

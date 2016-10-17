@@ -1038,11 +1038,11 @@ border-radius: 50%;
     font-size: 36px;
 
 }
-.news{
+.news-body{
   padding: 40px;
   text-align: center;
 }
-.news h1{
+.news-bodys h1{
   font-size: 35px;
 color: #000;
 font-family: helvetica;
@@ -1058,11 +1058,11 @@ border-bottom: 3px solid #FFCA00;
   border-radius: 5px;
   border: 9px solid #59B3B8;
 }
-.news h2{
+.news-body h2{
   font-size: 34px;
   color: #000;
 }
-.news p{
+.news-body p{
   color: #979797;
   width: 80%;
   margin: auto;

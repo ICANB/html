@@ -180,7 +180,7 @@ background: #fff;
     position: absolute;
     padding: 100px;
     text-align: center;
-    padding-top: 223px;
+    padding-top: 300px;
     /* background: rgba(0, 0, 0, 0.5); */
     z-index: 9;
     top: 0;
@@ -409,12 +409,17 @@ footer .col-md-4:nth-child(3) .phone{
     padding-top: 0;
 }
 
+.teamclouds .col-md-4 {
+    width: 33.33333333%;
+    text-align: center;
+}
+
 .teambox img {
     width: 90%;
 }
 
 .teamicon {
-    width: 80px;
+    width: 40px;
     float: none;
     margin: auto;
 }
@@ -427,9 +432,8 @@ footer .col-md-4:nth-child(3) .phone{
 
 .teamtext {
     position: absolute;
-    top: 110px;
-    float: left;
-    right: 30px;
+    top: 115px;
+
 }
 
 .teamtext h1 {
@@ -456,7 +460,6 @@ footer .col-md-4:nth-child(3) .phone{
     border-radius: 20px;
     position: relative;
     top: -55px;
-    left: 110px;
 }
 
 .teamclouds .btn-default:hover {
@@ -1203,7 +1206,7 @@ text-shadow: none !important;
 
 .sstories .col-md-4 {
    width: 33.33333333%;
-   height: 350px;
+   height: 415px;
    padding: 20px;
    padding-top: 20px;
 }
@@ -1274,7 +1277,7 @@ text-shadow: none !important;
 }
 
 .testimonialssection {
-    height: 411px;
+    height: 100%;
     text-align: center;
 }
 
@@ -1327,9 +1330,11 @@ text-shadow: none !important;
 }
 
 .news {
-    padding: 30px;
+    padding: 0px;
     text-align: center;
     height: 850px;
+    position: relative;
+    top: -100px;
 }
 
 
@@ -1737,7 +1742,6 @@ padding-bottom: 0;
 
 .soundtrackbody {
     width: 100%;
-    height: 530px;
     text-align: center;
 }
 
@@ -2936,10 +2940,9 @@ padding-bottom: 0;
 }
 
 .navssoundtrack .col-md-4 a {
-    width: 408px;
+    width: 100%;
     height: 85px;
     padding: 20px;
-border-right: 1px solid #fff;
     background: rgba(87,87,87,1);
     background: -moz-linear-gradient(top, rgba(87,87,87,1) 0%, rgba(0,0,0,1) 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(87,87,87,1)), color-stop(100%, rgba(0,0,0,1)));
@@ -2949,7 +2952,22 @@ border-right: 1px solid #fff;
     background: linear-gradient(to bottom, rgba(87,87,87,1) 0%, rgba(0,0,0,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#575757', endColorstr='#000000', GradientType=0 );
     display: block;
+
 }
+
+.headphones {
+  border-right: 1px solid #fff;
+     padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.videolyric {
+  border-right: 1px solid #fff;
+     padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+
 
 .headphones .glyphicon {
     color: #ffca00;
@@ -2991,7 +3009,6 @@ border-right: 1px solid #fff;
 
 .navssoundtrack {
     position: relative;
-    top: -1px;
 }
 
 
@@ -3027,4 +3044,14 @@ border-right: 1px solid #fff;
       background: url(../images/speaker-off.png) 50% !important;
     position: absolute;
     background-repeat: no-repeat !important;
+}
+
+.karaoke{
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.noticias {
+    padding: 185px;
+    padding-top: 0;
 }

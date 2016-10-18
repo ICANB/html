@@ -60,12 +60,24 @@
 
       <ul class="nav navbar-nav navbar-right">
         <li><a href="index.html">Home</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="#">About</a></li>
+        <li class="dropdown menu-1">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+          <ul class="dropdown-menu menu-2">
+            <li><a href="behaviorintervention.html">Behavior Intervention</a></li>
+            <li><a href="#">Behavior Technicians</a></li>
+          </ul>
+        </li>
+        <li class="dropdown menu-1 active">
+          <a href="about.html" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">About</a>
+          <ul class="dropdown-menu menu-2">
+            <li><a href="career.html">Career</a></li>
+
+          </ul>
+        </li>
         <li><a href="news.html">News</a></li>
-        <li class="active"><a href="fundingsources.html">Funding Sources</a></li>
+        <li><a href="fundingsources.html">Funding Sources</a></li>
         <li><a href="soundtrack.html">SoundTrack</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg">Contact</a></li>
 
       </ul>
     </div><!-- /.navbar-collapse -->
@@ -73,7 +85,6 @@
 </nav>
   </div>
 </header>
-
 
 <section class="fundingsources">
 <h1>Funding Sources</h1>

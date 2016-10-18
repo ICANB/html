@@ -59,9 +59,21 @@
 
 
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Services</a></li>
-        <li class="active"><a href="#">About</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown menu-1">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+          <ul class="dropdown-menu menu-2">
+            <li><a href="#">Behavior Intervention</a></li>
+            <li><a href="#">Behavior Technicians</a></li>
+          </ul>
+        </li>
+        <li class="dropdown menu-1 active">
+          <a href="about.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+          <ul class="dropdown-menu menu-2">
+            <li><a href="career.html">Career</a></li>
+
+          </ul>
+        </li>
         <li><a href="news.html">News</a></li>
         <li><a href="#">Funding Sources</a></li>
         <li><a href="#">SoundTrack</a></li>
@@ -283,6 +295,16 @@ $(function () {
         }
    });
 })
+</script>
+<script type="text/javascript">
+// Dropdown Menu Fade
+jQuery(document).ready(function(){
+$(".menu-1").hover(
+    function() { $('.menu-2', this).stop().fadeIn("fast");
+    },
+    function() { $('.menu-2', this).stop().fadeOut("fast");
+});
+});
 </script>
   </body>
 </html>

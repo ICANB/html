@@ -146,6 +146,7 @@ background: #fff;
    }
    .navbar-default .navbar-nav > li > a {
        color: #333;
+       border-bottom: 1px solid #fff;
        font-weight: 500;
        margin: 0 5px;
        padding: 15px 20px 5px;
@@ -271,8 +272,16 @@ footer .correo a{
     background-repeat: no-repeat;
     padding-left: 40px;
 }
-footer .col-md-4:nth-child(3) .location{
-  background-position-x: 40%;
+footer .col-md-4:nth-child(3) .location {
+    background-position-x: 40%;
+    width: 365px;
+    float: right;
+    display: block;
+}
+footer .col-md-4:nth-child(3) .phone{
+  width: 100%;
+  display: block;
+  float: right;
 }
 .phone span{
   font-size: 18px;
@@ -1153,4 +1162,19 @@ color: #FFCA00;
 opacity: 1;
 box-shadow: none !important;
 text-shadow: none !important;
+}
+.dropdown-menu{
+  padding: 0;
+}
+.dropdown-menu > li > a {
+    padding: 10px 20px;
+    background: #1faceb;
+    color: #fff;
+    text-align: center;
+    border-bottom: 1px solid #10a1e2;
+}
+.navbar-right .dropdown-menu {
+    right: -40px;
+    left: auto;
+    top: 50px;
 }

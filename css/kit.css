@@ -2965,25 +2965,54 @@ padding-bottom: 0;
   margin: -15px !important;
 }
 
-.volumeicon .glyphicon {
-    float: left;
+#buttonbar {
     position: absolute;
-    left: 85px;
-    top: 195px;
-    color: #ffca00;
-    font-size: 41px;
-    background: rgba(0, 0, 0, 0.37);
+    right: 20px;
+    top: 20px;
+    background: rgba(0, 0, 0, 0.38);
     width: 75px;
     height: 75px;
     border-radius: 40px;
-    padding: 17px;
+}
+.sound2{
+  position: absolute;
+left: 3px;
+top: 29px;
+}
+.sound2 img{
+  width: 23px;
+}
+.sound .icon2{
+  width: 30px;
+top: 1px;
+position: relative;
+}
+#play {
+    height: 70px;
+    border: none;
+    background: url(../images/volume-up.png) 50%;
+    background-size: 100%;
+    width: 40px;
+    background-repeat: no-repeat;
+    color: transparent;
 }
 
-.volumeicon .glyphicon:hover {
-      background: url(../images/speaker-off.png) 50% !important;
-    position: absolute;
-    background-repeat: no-repeat !important;
+#play:hover{
+  background: url(../images/speaker-off.png) 50% !important;
+  background-size: 100% !important;
+  width: 40px !important;
+  height: 70px !important;
+  background-repeat: no-repeat !important;
 }
+
+.play_pause  {
+    position: relative;
+    float: left;
+    left: 0;
+    top: 50px;
+    width: 170px;
+}
+
 
 .karaoke{
   padding-right: 0 !important;
@@ -3050,4 +3079,10 @@ padding-left: 20px !important;
 .testimonialssection{
   background:url(../images/testimonials.jpg);
   padding-top: 50px;
+}
+
+.ecualizador {
+  width: 1290px;
+  float: none;
+  margin: auto;
 }

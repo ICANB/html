@@ -1596,9 +1596,10 @@ padding-bottom: 0;
 }
 
 .behaviorbody .row {
-    margin: 0 !important;
+    margin:  0 auto !important;
     padding: 0;
     padding-bottom: 60px;
+    width: 880px;
 }
 
 

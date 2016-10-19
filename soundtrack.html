@@ -88,10 +88,19 @@
 
 
 <section class="soundtrackbody">
-<div class="volumeicon"><a href="#"><span class="glyphicon glyphicon-volume-up" aria-hidden="true"></span></a></div>
+
+<div class="play_pause">
+  <div id="buttonbar">
+      <button id="play" onclick="audioplay()">&gt;</button>
+
+  </div>
+</div>
+
+
 <div class="soundtitle"><h1>SoundTrack</h1></div>
 <div class="subrayadosoundtrack"></div>
 <div class="ziggysoundtrack"><img src="images/ziggy.png"></div>
+<div class="ecualizador">
 <div class='wrapper soundtracksec'>
     <div class='bar'>
     </div>
@@ -177,7 +186,7 @@
     </div>
       <div class='bar'>
     </div>
-
+</div>
   </div>
 
   <div class="navssoundtrack">
@@ -304,6 +313,50 @@ $(function () {
    });
 })
 </script>
+
+
+<audio id="audio1" autoplay loop>
+//  Replace these with your own files.
+     <source src="testsong.mp3" type="audio/mp3" />
+     <source src="testsong.ogg" type="audio/ogg" />
+     HTML5 Audio is required for this example.
+</audio>
+</div>
+<script type="text/javascript">
+
+function audioplay() {
+
+       var audio = document.getElementById("audio1");
+
+       var button = document.getElementById("play");
+
+       if (audio.paused) {
+
+          audio.play();
+
+          button.textContent = "||";
+
+        $(button).addClass("clase_en_play");
+
+        $(button).removeClass("clase_en_pausa");
+
+       } else {
+
+          audio.pause();
+
+          button.textContent = ">";
+
+
+        $(button).removeClass("clase_en_play");
+
+        $(button).addClass("clase_en_pausa");
+
+       }
+
+    }
+
+</script>
+
   </body>
 
 

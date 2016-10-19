@@ -59,22 +59,22 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="index.html">Home</a></li>
         <li class="dropdown menu-1">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+          <a href="services.html" class="dropdown-toggle" >Services</a>
           <ul class="dropdown-menu menu-2">
-            <li><a href="#">Behavior Intervention</a></li>
+            <li><a href="behaviorintervention.html">Behavior Intervention</a></li>
             <li><a href="#">Behavior Technicians</a></li>
           </ul>
         </li>
-        <li class="dropdown menu-1">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+        <li class="dropdown menu-1 ">
+          <a href="about.html" class="dropdown-toggle" >About</a>
           <ul class="dropdown-menu menu-2">
             <li><a href="career.html">Career</a></li>
 
           </ul>
         </li>
         <li class="active"><a href="news.html">News</a></li>
-        <li><a href="#">Funding Sources</a></li>
-        <li><a href="#">SoundTrack</a></li>
+        <li><a href="fundingsources.html">Funding Sources</a></li>
+        <li><a href="soundtrack.html">SoundTrack</a></li>
         <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg">Contact</a></li>
 
       </ul>
@@ -263,7 +263,16 @@ Van Nuys, CA 91405
 </div>
 </div>
 </footer>
-
+<script type="text/javascript">
+// Dropdown Menu Fade
+jQuery(document).ready(function(){
+$(".menu-1").hover(
+    function() { $('.menu-2', this).stop().fadeIn("fast");
+    },
+    function() { $('.menu-2', this).stop().fadeOut("fast");
+});
+});
+</script>
 <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content contact-form-send">

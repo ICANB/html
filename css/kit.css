@@ -10,9 +10,9 @@ body {
 	-webkit-font-smoothing: antialiased;
   font-family: helvetica;
 }
-header{
-  position: relative;
-  z-index: 1;
+header {
+    position: relative;
+    z-index: 99;
 }
 header .bg-gray{
   background: #333;
@@ -405,8 +405,6 @@ footer .col-md-4:nth-child(3) .phone{
 .teamclouds {
     background-color: #59b3b8;
     padding: 40px;
-    padding-bottom: 0px;
-    padding-top: 0;
 }
 
 .teamclouds .col-md-4 {
@@ -498,42 +496,6 @@ footer .col-md-4:nth-child(3) .phone{
     text-align: center;
 }
 
-.testimonialssection h1 {
-    font-size: 35px;
-    position: relative;
-    top: -380px;
-    background: transparent;
-    font-family: helvetica;
-    font-weight: bold;
-    color: #fff;
-}
-
-.subrayadotestimonials {
-    border-bottom: 3px solid #ffca00;
-    position: relative;
-    top: -387px;
-    width: 125px;
-    float: none;
-    margin: auto;
-}
-
-.testimonialcontain {
-    position: relative;
-    top: -335px;
-    background: rgba(23, 23, 23, 0.43);
-    padding: 55px;
-    width: 650px;
-    display: block;
-    float: none;
-    margin: auto;
-}
-
-.testimonialcontain p{
-    font-size: 16px;
-    font-style: italic;
-    color: #fff;
-}
-
 .testimonialcontain .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
     float: left;
     left: -35px;
@@ -549,7 +511,6 @@ footer .col-md-4:nth-child(3) .phone{
 .news {
     padding: 30px;
     text-align: center;
-    height: 850px;
 }
 
 
@@ -566,12 +527,6 @@ footer .col-md-4:nth-child(3) .phone{
     float: none;
     margin: auto;
 }
-
-.noticias .col-md-6 {
-    width: 50%;
-    top: 50px;
-}
-
 .noticiascontain {
     width: 690px;
     height: 480px;
@@ -1276,15 +1231,9 @@ text-shadow: none !important;
     width: 100%;
 }
 
-.testimonialssection {
-    height: 100%;
-    text-align: center;
-}
-
 .testimonialssection h1 {
     font-size: 35px;
     position: relative;
-    top: -380px;
     background: transparent;
     font-family: helvetica;
     font-weight: bold;
@@ -1294,23 +1243,20 @@ text-shadow: none !important;
 .subrayadotestimonials {
     border-bottom: 3px solid #ffca00;
     position: relative;
-    top: -387px;
     width: 125px;
     float: none;
     margin: auto;
 }
-
 .testimonialcontain {
     position: relative;
-    top: -335px;
     background: rgba(23, 23, 23, 0.43);
     padding: 55px;
     width: 650px;
     display: block;
     float: none;
     margin: auto;
+    margin-top: 30px;
 }
-
 .testimonialcontain p{
     font-size: 16px;
     font-style: italic;
@@ -1328,23 +1274,17 @@ text-shadow: none !important;
     left: 110px;
     top: 90px;
 }
-
 .news {
-    padding: 0px;
+    padding: 80px 0;
     text-align: center;
-    height: 850px;
     position: relative;
-    top: -100px;
 }
-
-
 .news h1 {
     font-size: 35px;
     font-family: helvetica;
     font-weight: 600;
+    margin-top: 0;
 }
-
-
 .subrayadonews{
     border-bottom: 3px solid #ffca00;
     width: 100px;
@@ -1352,10 +1292,6 @@ text-shadow: none !important;
     margin: auto;
 }
 
-.noticias .col-md-6 {
-    width: 50%;
-    top: 50px;
-}
 
 .noticiascontain {
     width: 690px;
@@ -1404,6 +1340,7 @@ box-shadow: 0px 0px 12px 2px rgba(184,184,184,1);
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 20px;
+    border: 1px solid #ffca00;
     cursor: pointer;
             transition: all 0.4s ease;
     -webkit-transition: all 0.4s ease;
@@ -1416,6 +1353,7 @@ box-shadow: 0px 0px 12px 2px rgba(184,184,184,1);
 .noticiascontain a:hover {
   background:#fff;
   color: #ffca00;
+  border: 1px solid #ffca00;
               transition: all 0.4s ease;
     -webkit-transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;
@@ -3050,8 +2988,65 @@ padding-bottom: 0;
   padding-right: 0 !important;
   padding-left: 0 !important;
 }
-
 .noticias {
-    padding: 185px;
+    padding: 10%;
     padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 30px;
+}
+.box-team-drive{
+  background-image: url(../images/bg-service.png);
+  height: 300px;
+  background-repeat: no-repeat;
+  padding-top: 35px !important;
+padding-right: 30px !important;
+padding-bottom: 35px !important;
+padding-left: 20px !important;
+}
+.teamsection{
+ background-color: #59b3b8;
+}
+.teamclouds {
+    width: 1270px;
+    margin: auto;
+}
+.teamclouds h1{
+  font-size: 20px;
+    font-family: helvetica;
+    font-weight: 600;
+    text-align: center;
+}
+.teamclouds p{
+  font-size: 15px;
+    color: #777;
+    padding-top: 0;
+    text-align: center;
+}
+.teamclouds a{
+  display: inline-block;
+  background: #FFCA00;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-weight: regular;
+  border: 1px solid #FFCA00;
+  transition: all 0.3s ease;
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+}
+.teamclouds a:hover{
+  background: #fff;
+  border: 1px solid #FFCA00;
+  color: #FFCA00;
+  transition: all 0.3s ease;
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+}
+.testimonialssection{
+  background:url(../images/testimonials.jpg);
+  padding-top: 50px;
 }

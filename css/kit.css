@@ -822,8 +822,8 @@ margin-top: 20px;
     margin: auto;
     margin-top: 10px;
 }
-.team .col-md-6{
-  height: 460px;
+.team .col-md-6 {
+    height: 542px;
 }
 .team .team-one {
     background: url(../images/product_bg.png) #f2f2f2 50% fixed;
@@ -832,7 +832,7 @@ margin-top: 20px;
     background-size: cover;
 }
 .team .team-two {
-    background: url(../images/product_bg.png)  #59B3B8 50% fixed;
+    background: url(../images/product_bg.png) #1faceb 50% fixed;
     background-size: cover;
     padding: 40px;
     display: table;
@@ -840,9 +840,10 @@ margin-top: 20px;
 .position-team{
   margin: 25px 0;
 }
-.team .col-md-6 span{
-  font-size: 14px;
-  color: #333;
+.team .col-md-6 span {
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
 }
 .team .team-one p{
   font-size: 16px;
@@ -866,13 +867,13 @@ margin-top: 20px;
 }
 .team .team-two p {
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
     display: table-cell;
     vertical-align: middle;
 }
 .team .team-three {
-  background: url(../images/product_bg.png)  #59B3B8 50% fixed;
-  background-size: cover;
+    background: url(../images/product_bg.png) #ffca00 50% fixed;
+    background-size: cover;
     padding: 40px;
     display: inline-table;
 }
@@ -880,7 +881,7 @@ margin-top: 20px;
     content: '';
     height: 160px;
     width: 160px;
-    background: #59B3B8;
+    background: #ffca00;
     display: block;
     border-radius: 50%;
     position: absolute;
@@ -891,8 +892,9 @@ margin-top: 20px;
 .team .team-three p {
     color: #fff;
     position: relative;
+    font-weight: normal;
     z-index: 2;
-    font-size: 14px;
+    font-size: 16px;
     display: table-cell;
     vertical-align: middle;
 }
@@ -995,9 +997,9 @@ border-radius: 50%;
   padding-bottom: 0;
   text-align: center;
 }
-.technical-photo img{
-  width: 90%;
-  margin-top: 80px;
+.technical-photo img {
+    width: 50%;
+    margin-top: 80px;
 }
 .technical-photo h1 {
     margin: 0;
@@ -1401,9 +1403,9 @@ padding-bottom: 0;
 }
 
 .hwwork {
-     background-image: url(../images/servicescoverazul.png);
+     background: url(../images/servicescoverazul.png) fixed;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     padding: 45px;
 
     text-align: center;
@@ -1495,15 +1497,14 @@ padding-bottom: 0;
     top: -440px;
     right: 8px;
 }
-
 .fundingsources {
     text-align: center;
-    background-image: url(../images/hands.png);
+    background: url(../images/bg-marcas.jpg) fixed;
     background-repeat: no-repeat;
     background-size: cover;
     height: 725px;
+    padding-top: 20px;
 }
-
 .fundingsources .col-md-3 {
     padding: 5px 20px;
     padding-bottom: 30px;
@@ -1554,9 +1555,9 @@ padding-bottom: 0;
 
 .behaviorbody {
     text-align: center;
-    background-image: url(../images/behavior.png);
-    background-repeat: repeat;
-    background-size: contain;
+    background: url(../images/fondo.jpg) fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 1870px;
     padding: 200px;
 }
@@ -3084,5 +3085,48 @@ padding-left: 20px !important;
 .ecualizador {
   width: 1290px;
   float: none;
+  margin: auto;
+}
+.team .team-one img{
+  height: 220px;
+}
+.team .team-two img{
+  height: 220px;
+}
+.overlay-video{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.0);
+    transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+}
+.overlay-video:hover{
+  border: 132px solid rgba(0, 0, 0, 0.58);
+  transition: all 0.3s ease;
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+}
+.overlay-video img {
+    width: 80px !important;
+    position: relative;
+    top: 37px;
+    opacity: 0;
+}
+.overlay-video:hover img{
+  opacity: 1;
+  top: -37px;
+
+}
+.storiesbox{
+  position: relative;
+}
+#succes-hystoric{
+  width: 1270px;
   margin: auto;
 }
